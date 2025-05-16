@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JLearnings - Educational resources and courses">
+    <title>JLearnings Courses</title>
+    <link rel="stylesheet" href="coursePageStyle.css">
+    <link rel="icon" type="image/png" href="Orange.png">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1><a href="/" class="logo-link">JLearnings</a></h1>
+            <nav class="navbar" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+    <section class="top-text">
+
+        <h1>Courses</h1>
+        <p>
+            JLearnings offer free online courses that is tailored for kids in learning the basics.
+            Explore our available courses and start nurturing your children.
+        </p>
+
+    </section>
+
+    <div class="course-grid">
+        <article class="course-box" data-course-id="math">
+            <div>
+                <img src="math.png" alt="Math course illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Basic Math</h2>
+                    <p class="course-description">
+                        This course will explore the fundamentals of mathematics through engaging lessons
+                        and fun activities designed for young learners. 
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('math')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="course-box" data-course-id="science">
+            <div>
+                <img src="science.png" alt="Science course illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Basic Science</h2>
+                    <p class="course-description">
+                        Discover scientific concepts through interactive experiments and 
+                        hands-on learning activities tailored for young minds.
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('science')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="course-box" data-course-id="reading">
+            <div>
+                <img src="reading.png" alt="Reading course illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Reading Fundamentals</h2>
+                    <p class="course-description">
+                        Build essential reading skills with our phonics-based program and 
+                        engaging story-time activities.
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('reading')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="course-box" data-course-id="values">
+            <div>
+                <img src="valEth.webp" alt="Values and Ethics illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Core Values and Ethics</h2>
+                    <p class="course-description">
+                        Teach children core values and ethical principles 
+                        through relatable stories and scenarios that help them 
+                        understand right from wrong in everyday situations.
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('values')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="course-box" data-course-id="arts">
+            <div>
+                <img src="arts.png" alt="Creative arts course illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Creative Arts</h2>
+                    <p class="course-description">
+                        Spark imagination and self-expression through fun art projects 
+                        exploring colors, shapes, and various creative mediums for young artists
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('arts')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="course-box" data-course-id="writing">
+            <div>
+                <img src="pen-4702531_640.webp" alt="Writing course illustration" class="course-image">
+                <div class="course-content">
+                    <h2 class="course-title">Writing Fundamentals</h2>
+                    <p class="course-description">
+                        Build essential writing skills from letters to sentences 
+                        through interactive exercises that make learning to write enjoyable and rewarding.
+                    </p>
+                    <button class="course-button" onclick="courseDisplay('writing')">Start Learning</button>
+                </div>
+            </div>
+        </article>
+
+        
+    <article class="course-box" data-course-id="environment">
+        <div>
+            <img src="environment.png" alt="Environmental Awareness course illustration" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Environmental Awareness</h2>
+                <p class="course-description">
+                    Introduce kids to nature conservation and eco-friendly habits through interactive activities that foster love for our planet.
+                </p>
+                <button class="course-button" onclick="courseDisplay('environment')">Start Learning</button>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="course-box" data-course-id="tech">
+        <div>
+            <img src="tech.jpg" alt="Technology 101 course illustration" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Technology 101</h2>
+                <p class="course-description">
+                    Explore how everyday technology works through simple experiments and child-friendly explanations of digital concepts.
+                </p>
+                <button class="course-button" onclick="courseDisplay('tech')">Start Learning</button>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="course-box" data-course-id="computer">
+        <div>
+            <img src="computer.png" alt="Computer Basics course illustration" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Computer Basics</h2>
+                <p class="course-description">
+                    Build fundamental computer skills from keyboarding to safe internet use with engaging, age-appropriate lessons.
+                </p>
+                <button class="course-button" onclick="courseDisplay('computer')">Start Learning</button>
+            </div>
+        </div>
+    </article>
+
+    </div>
+
+    <h1 style="margin-top: 50px; text-align: center;">More courses coming soon...</h1>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> 09123456789</p>
+                <p><i class="fas fa-envelope"></i> jlearnings.edu.ph</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us on Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">&#xf09a;</a>
+                    <a href="#" aria-label="Twitter">&#xf099;</a>
+                    <a href="#" aria-label="Instagram">&#xf16d;</a>
+                    <a href="#" aria-label="Pinterest">&#xf0d2;</a>
+                    <a href="#" aria-label="WhatsApp">&#xf232;</a>
+                </div>
+                <p class="copyright">
+                    <i class="far fa-copyright"></i> 2025 JLearnings All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+<script src="coursePage.js"></script>
+</body>
+</html>

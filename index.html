@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JLearnings - Educational resources and courses">
+    <title>JLearnings - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Orange.png">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <h1><a href="/" class="logo-link">JLearnings</a></h1>
+            <nav class="navbar" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="coursePage.html" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero-image">
+            <img src="children image.png" alt="Children learning together" class="hero-img">
+
+            <section class="head-text">
+                <h1>An E-learning Website for Kids</h1>
+                <p>Get free access to courses made for kids.</p>
+            </section>
+        </div>
+
+       
+    </header>
+
+    <main class="main-content">
+        <h1>Featured Courses</h1>
+
+        <div class="course-grid">
+            <article class="course-box" data-course-id="math">
+                <div>
+                    <img src="math.png" alt="Math course illustration" class="course-image">
+                    <div class="course-content">
+                        <h2 class="course-title">Basic Math</h2>
+                        <p class="course-description">
+                            This course will explore the fundamentals of mathematics through engaging lessons
+                            and fun activities designed for young learners. 
+                        </p>
+                        <button class="course-button" onclick="courseDisplay('math')">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-box" data-course-id="science">
+                <div>
+                    <img src="science.png" alt="Science course illustration" class="course-image">
+                    <div class="course-content">
+                        <h2 class="course-title">Basic Science</h2>
+                        <p class="course-description">
+                            Discover scientific concepts through interactive experiments and 
+                            hands-on learning activities tailored for young minds.
+                        </p>
+                        <button class="course-button" onclick="courseDisplay('science')">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-box" data-course-id="reading">
+                <div>
+                    <img src="reading.png" alt="Reading course illustration" class="course-image">
+                    <div class="course-content">
+                        <h2 class="course-title">Reading Fundamentals</h2>
+                        <p class="course-description">
+                            Build essential reading skills with our phonics-based program and 
+                            engaging story-time activities.
+                        </p>
+                        <button class="course-button" onclick="courseDisplay('reading')">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+        
+        <a href="coursePage.html" class="explore-btn">Explore Our Courses</a>
+        
+    </main>
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> 09123456789</p>
+                <p><i class="fas fa-envelope"></i> jlearnings.edu.ph</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us on Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">&#xf09a;</a>
+                    <a href="#" aria-label="Twitter">&#xf099;</a>
+                    <a href="#" aria-label="Instagram">&#xf16d;</a>
+                    <a href="#" aria-label="Pinterest">&#xf0d2;</a>
+                    <a href="#" aria-label="WhatsApp">&#xf232;</a>
+                </div>
+                <p class="copyright">
+                    <i class="far fa-copyright"></i> 2025 JLearnings All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
